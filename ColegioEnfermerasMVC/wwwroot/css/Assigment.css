@@ -1,0 +1,51 @@
+﻿.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+    .table th,
+    .table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+        text-align: center; /* Centrar el texto en las celdas */
+    }
+
+@media (max-width: 768px) {
+    .table thead {
+        display: none; /* Oculta el encabezado en dispositivos móviles */
+    }
+
+    .table tr {
+        display: block; /* Cada fila como un bloque */
+        margin-bottom: 1rem; /* Espaciado entre filas */
+    }
+
+    .table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0; /* Espaciado interno */
+        border: none; /* Sin borde en móviles */
+        position: relative; /* Posicionamiento relativo para el pseudo-elemento */
+        text-align: right; /* Alinear texto a la derecha */
+    }
+
+        .table td::before {
+            content: attr(data-label); /* Mostrar el nombre de la columna */
+            position: absolute; /* Posicionamiento absoluto */
+            left: 0; /* Alinear a la izquierda */
+            text-align: left; /* Alinear texto a la izquierda */
+            font-weight: bold; /* Negrita para los encabezados de cada celda */
+        }
+}
+.date-filter-row {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+}
+

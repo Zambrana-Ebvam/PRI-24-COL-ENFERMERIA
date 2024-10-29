@@ -1,0 +1,171 @@
+﻿@{
+    ViewData["Title"] = "Proovedores";
+    Layout = "_Layout";
+}
+@section styles {
+    <link rel="stylesheet" href="~/css/Supplier.css" />
+}
+
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Gestión de Proveedores</h1>
+
+  
+
+    <!-- Sección de información -->
+    <div class="info-section d-flex align-items-center mb-4">
+        <i class="fas fa-users-cog fa-3x me-3 text-primary"></i>
+        <div>
+            <h4 class="mb-0">Gestión de Proveedores</h4>
+            <p class="mb-0">Administre eficientemente la información de sus proveedores.</p>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5 mb-5" id="modalFiltro">
+        <div class="row date-filter-row align-items-end">
+            <div class="col-md-3 mb-3 mb-md-0">
+                <label for="start-date" class="form-label">Fecha Inicio</label>
+                <input type="date" class="form-control" id="startDateFilter">
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <label for="end-date" class="form-label">Fecha Fin</label>
+                <input type="date" class="form-control" id="endDateFilter">
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <button class="btn btn-primary w-100" id="btnFiltrar">Filtrar</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-secondary w-100" id="btnLimpiarF">Limpiar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Botón para abrir el modal -->
+    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#providerModal">
+        <i class="fas fa-plus me-2"></i>Nuevo Proveedor
+    </button>
+
+    <div class="col-md-12">
+
+        <!-- Tabla de proveedores -->
+        <div class="provider-table mb-5">
+            @*  <h2 class="mb-3">Lista de Proveedores</h2> *@
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Dirección</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody id="providerList">
+                        <!-- Los proveedores se agregarán aquí dinámicamente -->
+                    </tbody>
+                </table>
+                <hr />
+                <div id="pagination" class="text-center mt-3">
+                    <!-- Aquí se agregarán los botones de paginación -->
+                </div>
+                <div id="moreAssignmentsMsg" style="display:none;">
+                    <p>Hay más asignaciones disponibles. Por favor, revisa el sistema para ver todos los resultados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</div>
+
+<!-- Modal Para Actualizar -->
+<div class="modal fade" id="ResignacionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Actualizar Proveedor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <form id="providerFormUp" novalidate>
+                        <input type="hidden" id="IdProviderUp" required> <!-- Campo extra no visible -->
+                        <div class="mb-3">
+                            <label for="providerNameUp" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="providerNameUp" required>
+                            <div class="invalid-feedback" id="nameErrorMsgUp"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="providerAddressUp" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="providerAddressUp" required>
+                            <div class="invalid-feedback" id="addressErrorMsgUp"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="providerPhoneUp" class="form-label">Teléfono</label>
+                            <input type="number" class="form-control" id="providerPhoneUp" required>
+                            <div class="invalid-feedback" id="phoneErrorMsgUp"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn_Update_Supplier">Actualizar Proveedor</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Crear Proovedor-->
+<div class="modal fade" id="providerModal" tabindex="-1" aria-labelledby="providerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="providerModalLabel">Agregar Proveedor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <form id="providerForm" novalidate>
+                        <div class="mb-3">
+                            <label for="providerName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="providerName" required>
+                            <div class="invalid-feedback" id="nameErrorMsg"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="providerAddress" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="providerAddress" required>
+                            <div class="invalid-feedback" id="addressErrorMsg"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="providerPhone" class="form-label">Teléfono</label>
+                            <input type="number" class="form-control" id="providerPhone" required>
+                            <div class="invalid-feedback" id="phoneErrorMsg"></div>
+                            <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-4">
+
+                            <button type="submit" class="btn btn-primary me-3" id="btn_Add_Supplier" data-bs-dismiss="modal" disabled>Agregar Proveedor</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btn_Add_Cancel">Cancelar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="mb-5">
+    <hr />
+</div>
+
+@section scripts {
+    <script src="~/js/Supplier.js"></script>
+}
