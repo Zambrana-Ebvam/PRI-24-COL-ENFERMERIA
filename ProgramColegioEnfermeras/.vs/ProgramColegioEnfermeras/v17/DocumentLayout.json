@@ -1,0 +1,564 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\programcolegioenfermeras.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\programcolegioenfermeras.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\models\\bdunivalleenfermerascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\models\\bdunivalleenfermerascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\nurses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\nurses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\nurses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\nurses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\userrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\userrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\models\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\models\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\accountcontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\accountcontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\nursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\nursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\userrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\userrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\nurses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\nurses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\nurses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\nurses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\nurses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\nurses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\userrs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\userrs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\userrs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\userrs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\userrs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\userrs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\userrs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\userrs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|d:\\proyectosistemas\\programcolegioenfermeras\\programcolegioenfermeras\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A26CFF49-2916-4AED-9A11-F64B5976C4C9}|ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj|solutionrelative:programcolegioenfermeras\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramColegioEnfermeras.csproj",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\ProgramColegioEnfermeras.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T03:12:53.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Nurses\\Create.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Create.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Nurses\\Create.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:50:29.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Userr.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Userr.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Models\\Userr.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Userr.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Models\\Userr.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswCwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:35:09.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:14:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T09:22:43.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserrsController.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\UserrsController.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\UserrsController.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\UserrsController.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\UserrsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:47:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:43:07.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BdUnivalleEnfermerasContext.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\BdUnivalleEnfermerasContext.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Models\\BdUnivalleEnfermerasContext.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\BdUnivalleEnfermerasContext.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Models\\BdUnivalleEnfermerasContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:59:38.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Userrs\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Index.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Userrs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:58:27.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Program.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Program.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Program.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:04:18.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NursesController.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\NursesController.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\NursesController.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\NursesController.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\NursesController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAYwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:46:32.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Nurses\\Details.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Details.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Nurses\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:53:04.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Nurses\\Edit.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Edit.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Nurses\\Edit.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:54:25.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T02:19:11.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Nurses\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Index.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Nurses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:54:59.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\AccountController.cs.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\AccountController.cs.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\AccountController.cs.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\AccountController.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T01:39:34.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Models\\Supplier.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Supplier.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T01:40:32.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:44:17.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\appsettings.json",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\appsettings.json",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\appsettings.json",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T00:02:52.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Userrs\\Create.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Create.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Userrs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:55:33.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAIBZwBcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:09:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Nurses\\Delete.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Nurses\\Delete.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Nurses\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T01:12:47.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Nurse.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Nurse.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Models\\Nurse.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Nurse.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Models\\Nurse.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:35:44.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:47:57.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T00:06:48.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Userrs\\Delete.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Delete.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Userrs\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:57:09.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Userrs\\Details.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Details.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Userrs\\Details.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:57:31.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Userrs\\Edit.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Userrs\\Edit.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Userrs\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:57:51.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T12:09:37.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Models\\Student.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Models\\Student.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Models\\Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:04:54.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Views\\Report\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Views\\Report\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAIBZwFAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:50:57.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "ProgramColegioEnfermeras\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\ProyectoSistemas\\ProgramColegioEnfermeras\\ProgramColegioEnfermeras\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "ProgramColegioEnfermeras\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:37:39.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
