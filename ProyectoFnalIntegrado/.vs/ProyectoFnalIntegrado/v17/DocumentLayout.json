@@ -1,0 +1,1490 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\nursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\nursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\userrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\userrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\medicinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\kardexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\kardexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\first_aid_kitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\first_aid_kitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\establishmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\establishmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\assigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\assigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\nurses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\nurses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\nurses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\nurses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\nurses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\nurses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\first_aid_kit\\createfirst.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\first_aid_kit\\createfirst.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\first.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\first.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\prescription\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\prescription\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\kardex\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\kardex\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\data\\dacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:data\\dacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Downloads\\KardexController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Downloads\\EstablishmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\establishment\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\establishment\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Downloads\\KardexController (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\supplier\\fillstock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\supplier\\fillstock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\report\\medicinefirstaidkitreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\report\\medicinefirstaidkitreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\report\\establishmentfirstaidkitreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\report\\establishmentfirstaidkitreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\medicine.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\medicine.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\medicine\\createmedicine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\medicine\\createmedicine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\userrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\userrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\kardex.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\kardex.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\kardex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\kardex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\firstaidkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\firstaidkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\medicinefirstaidkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\medicinefirstaidkit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\stock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\stock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\first.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\first.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\establishment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\establishment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\assigment\\assigmentnurse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\assigment\\assigmentnurse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\medicine\\medicationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\medicine\\medicationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\supplier\\createsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\supplier\\createsupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\supplier.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\supplier.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\css\\assigment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\css\\assigment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\assigment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\assigment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\wwwroot\\js\\supplier.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:wwwroot\\js\\supplier.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\services\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:services\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#Proyectos\\Mollo_Proyecto\\Ferreteria_WPF\\Tools\\SendEmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\proyectofnalintegrado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:proyectofnalintegrado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\assigment\\assigmentnurseandschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\assigment\\assigmentnurseandschool.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\userrs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\userrs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Proyectos\\Integracion\\PRI-24-COL-ENFERMERIA\\Fernando\\PRI-24-COL-ENFERMERIA-Fernando\\ColegioEnfermerasMVC\\Data\\DbCollegeContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\userrs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\userrs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\nurses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\nurses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\nurses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\nurses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#Proyectos\\ProyectoIntegrado_V1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C#Proyectos\\ProyectoIntegrado_V1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\userrs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\userrs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|d:\\colegio enfermeras\\proyectofnalintegrado\\views\\userrs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15BA8BE5-1C93-4558-9704-634A070A6D8C}|ProyectoFnalIntegrado.csproj|solutionrelative:views\\userrs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 13,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAA9wFUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:40:46.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\SupplierController.cs*",
+              "RelativeToolTip": "Controllers\\SupplierController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:27:58.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAawBUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:42:03.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserrsController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\UserrsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserrsController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\UserrsController.cs",
+              "RelativeToolTip": "Controllers\\UserrsController.cs",
+              "ViewState": "AQIAAEQBAAAAAAAAAAAiwIAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:42:32.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NursesController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\NursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NursesController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\NursesController.cs",
+              "RelativeToolTip": "Controllers\\NursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:39:29.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionController.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAmwBIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:40:11.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicineDTO.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\MedicineDTO.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicineDTO.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\MedicineDTO.cs",
+              "RelativeToolTip": "Controllers\\MedicineDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T00:09:48.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicineController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\MedicineController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicineController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\MedicineController.cs",
+              "RelativeToolTip": "Controllers\\MedicineController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:27:17.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KardexController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\KardexController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KardexController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\KardexController.cs",
+              "RelativeToolTip": "Controllers\\KardexController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowBYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:38:52.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T23:49:27.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "First_Aid_KitController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\First_Aid_KitController.cs",
+              "RelativeDocumentMoniker": "Controllers\\First_Aid_KitController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\First_Aid_KitController.cs",
+              "RelativeToolTip": "Controllers\\First_Aid_KitController.cs",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAqwOAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:18:10.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstablishmentController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\EstablishmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EstablishmentController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\EstablishmentController.cs",
+              "RelativeToolTip": "Controllers\\EstablishmentController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:37:43.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssigmentController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\AssigmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssigmentController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\AssigmentController.cs",
+              "RelativeToolTip": "Controllers\\AssigmentController.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAUwDgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:53:52.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowHIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:34:57.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:38:48.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:49:42.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:53.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nurses\\Edit.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Nurses\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:28.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nurses\\Create.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Create.cshtml",
+              "RelativeToolTip": "Views\\Nurses\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:07.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Models\\AppSettings.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Models\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:45:51.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Index.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Views\\Students\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAEgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:25.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nurses\\Index.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Index.cshtml",
+              "RelativeToolTip": "Views\\Nurses\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:33.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAACEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "Models\\Assignment.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Assignment.cs",
+              "RelativeToolTip": "Models\\Assignment.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:37:45.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "First.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\First.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\First.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\First.js",
+              "RelativeToolTip": "wwwroot\\js\\First.js",
+              "ViewState": "AQIAAFcBAAAAAAAAAAAiwBgCAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T03:08:01.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CRUD.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Prescription\\CRUD.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prescription\\CRUD.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Prescription\\CRUD.cshtml",
+              "RelativeToolTip": "Views\\Prescription\\CRUD.cshtml",
+              "ViewState": "AQIAAA4BAAAAAAAAAAAAACoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:45.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CRUD.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Kardex\\CRUD.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kardex\\CRUD.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Kardex\\CRUD.cshtml",
+              "RelativeToolTip": "Views\\Kardex\\CRUD.cshtml",
+              "ViewState": "AQIAABIBAAAAAAAAAAAuwC0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:03.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateFirst.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\First_Aid_Kit\\CreateFirst.cshtml",
+              "RelativeDocumentMoniker": "Views\\First_Aid_Kit\\CreateFirst.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\First_Aid_Kit\\CreateFirst.cshtml",
+              "RelativeToolTip": "Views\\First_Aid_Kit\\CreateFirst.cshtml",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAE8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T03:02:42.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DaContext.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Data\\DaContext.cs",
+              "RelativeDocumentMoniker": "Data\\DaContext.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Data\\DaContext.cs",
+              "RelativeToolTip": "Data\\DaContext.cs",
+              "ViewState": "AQIAAAwBAAAAAAAAAAAqwBMBAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:34:02.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Delete.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Students\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:05.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EstablishmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\EstablishmentController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\EstablishmentController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:38:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KardexController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\KardexController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\KardexController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:46:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "Models\\Supplier.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Supplier.cs",
+              "RelativeToolTip": "Models\\Supplier.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:41:24.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "KardexController (1).cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Downloads\\KardexController (1).cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Downloads\\KardexController (1).cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:02:29.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CRUD.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Establishment\\CRUD.cshtml",
+              "RelativeDocumentMoniker": "Views\\Establishment\\CRUD.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Establishment\\CRUD.cshtml",
+              "RelativeToolTip": "Views\\Establishment\\CRUD.cshtml",
+              "ViewState": "AQIAAEIBAAAAAAAAAAAUwKEBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:46:19.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:37:20.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FillStock.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Supplier\\FillStock.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\FillStock.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Supplier\\FillStock.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\FillStock.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T03:03:23.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "wwwroot\\css\\login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T01:31:06.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EstablishmentFirstAidKitReport.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\EstablishmentFirstAidKitReport.cshtml",
+              "RelativeDocumentMoniker": "Views\\Report\\EstablishmentFirstAidKitReport.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\EstablishmentFirstAidKitReport.cshtml",
+              "RelativeToolTip": "Views\\Report\\EstablishmentFirstAidKitReport.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T05:47:36.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Form.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Form.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Form.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Form.css",
+              "RelativeToolTip": "wwwroot\\css\\Form.css",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAowM0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T01:28:17.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MedicineFirstAidKitReport.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\MedicineFirstAidKitReport.cshtml",
+              "RelativeDocumentMoniker": "Views\\Report\\MedicineFirstAidKitReport.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\MedicineFirstAidKitReport.cshtml",
+              "RelativeToolTip": "Views\\Report\\MedicineFirstAidKitReport.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T05:47:08.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateMedicine.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Medicine\\CreateMedicine.cshtml",
+              "RelativeDocumentMoniker": "Views\\Medicine\\CreateMedicine.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Medicine\\CreateMedicine.cshtml",
+              "RelativeToolTip": "Views\\Medicine\\CreateMedicine.cshtml",
+              "ViewState": "AQIAALwAAAAAAAAAAIBJwAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T03:02:52.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAEwBAAAAAAAAAIBJwDwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-18T23:43:56.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Table.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Table.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Table.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Table.css",
+              "RelativeToolTip": "wwwroot\\css\\Table.css",
+              "ViewState": "AQIAAJYAAAAAAAAAAIBJwNMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T01:27:52.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T17:48:10.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:46:09.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Medicine.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Medicine.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Medicine.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Medicine.js",
+              "RelativeToolTip": "wwwroot\\js\\Medicine.js",
+              "ViewState": "AQIAAF8BAAAAAAAAAAAAwGUBAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-21T09:02:23.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Userrs\\Index.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Userrs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:57.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:46:58.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Kardex.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Kardex.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Kardex.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Kardex.js",
+              "RelativeToolTip": "wwwroot\\js\\Kardex.js",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAywHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-26T03:34:45.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FirstAidKit.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\FirstAidKit.cs",
+              "RelativeDocumentMoniker": "Models\\FirstAidKit.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\FirstAidKit.cs",
+              "RelativeToolTip": "Models\\FirstAidKit.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:20.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "Models\\Medicine.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Medicine.cs",
+              "RelativeToolTip": "Models\\Medicine.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:36.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MedicineFirstAidKit.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\MedicineFirstAidKit.cs",
+              "RelativeDocumentMoniker": "Models\\MedicineFirstAidKit.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\MedicineFirstAidKit.cs",
+              "RelativeToolTip": "Models\\MedicineFirstAidKit.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:51.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Kardex.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Kardex.cs",
+              "RelativeDocumentMoniker": "Models\\Kardex.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Kardex.cs",
+              "RelativeToolTip": "Models\\Kardex.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:27.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAuwEAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:39:19.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Stock.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Stock.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Stock.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Stock.js",
+              "RelativeToolTip": "wwwroot\\js\\Stock.js",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAkwFkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T22:04:19.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "First.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\First.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\First.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\First.css",
+              "RelativeToolTip": "wwwroot\\css\\First.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-20T04:33:34.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CreateSupplier.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Supplier\\CreateSupplier.cshtml",
+              "RelativeDocumentMoniker": "Views\\Supplier\\CreateSupplier.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Supplier\\CreateSupplier.cshtml",
+              "RelativeToolTip": "Views\\Supplier\\CreateSupplier.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwDMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T03:03:18.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Establishment.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Establishment.cs",
+              "RelativeDocumentMoniker": "Models\\Establishment.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Establishment.cs",
+              "RelativeToolTip": "Models\\Establishment.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAywEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:05.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AssigmentNurse.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Assigment\\AssigmentNurse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Assigment\\AssigmentNurse.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Assigment\\AssigmentNurse.cshtml",
+              "RelativeToolTip": "Views\\Assigment\\AssigmentNurse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T02:24:15.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:46:00.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Supplier.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Supplier.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Supplier.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Supplier.css",
+              "RelativeToolTip": "wwwroot\\css\\Supplier.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T09:12:29.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "MedicationList.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Medicine\\MedicationList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Medicine\\MedicationList.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Medicine\\MedicationList.cshtml",
+              "RelativeToolTip": "Views\\Medicine\\MedicationList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T03:02:58.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Assigment.css",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Assigment.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Assigment.css",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\css\\Assigment.css",
+              "RelativeToolTip": "wwwroot\\css\\Assigment.css",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAUwKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-20T04:33:30.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Assigment.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Assigment.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Assigment.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Assigment.js",
+              "RelativeToolTip": "wwwroot\\js\\Assigment.js",
+              "ViewState": "AQIAAAQBAAAAAAAAAAAAwAkBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T02:48:23.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Supplier.js",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Supplier.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Supplier.js",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\wwwroot\\js\\Supplier.js",
+              "RelativeToolTip": "wwwroot\\js\\Supplier.js",
+              "ViewState": "AQIAAHsBAAAAAAAAAAAQwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-20T22:03:34.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Services\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Services\\DatabaseHelper.cs",
+              "RelativeToolTip": "Services\\DatabaseHelper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwEQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T06:56:41.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:39:42.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Nurse.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Nurse.cs",
+              "RelativeDocumentMoniker": "Models\\Nurse.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Nurse.cs",
+              "RelativeToolTip": "Models\\Nurse.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAowFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:58.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T00:50:07.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Report\\Index.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "Views\\Report\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:50.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T00:09:51.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:42:43.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SendEmail.cs",
+              "DocumentMoniker": "F:\\C#Proyectos\\Mollo_Proyecto\\Ferreteria_WPF\\Tools\\SendEmail.cs",
+              "ToolTip": "F:\\C#Proyectos\\Mollo_Proyecto\\Ferreteria_WPF\\Tools\\SendEmail.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T22:20:17.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Userr.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Userr.cs",
+              "RelativeDocumentMoniker": "Models\\Userr.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Userr.cs",
+              "RelativeToolTip": "Models\\Userr.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:41:30.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:38:00.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProyectoFnalIntegrado.csproj",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\ProyectoFnalIntegrado.csproj",
+              "RelativeDocumentMoniker": "ProyectoFnalIntegrado.csproj",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\ProyectoFnalIntegrado.csproj",
+              "RelativeToolTip": "ProyectoFnalIntegrado.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T04:18:54.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T04:20:56.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Userrs\\Create.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Create.cshtml",
+              "RelativeToolTip": "Views\\Userrs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:33.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AssigmentNurseAndSchool.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Assigment\\AssigmentNurseAndSchool.cshtml",
+              "RelativeDocumentMoniker": "Views\\Assigment\\AssigmentNurseAndSchool.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Assigment\\AssigmentNurseAndSchool.cshtml",
+              "RelativeToolTip": "Views\\Assigment\\AssigmentNurseAndSchool.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T02:24:25.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "DbCollegeContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Proyectos\\Integracion\\PRI-24-COL-ENFERMERIA\\Fernando\\PRI-24-COL-ENFERMERIA-Fernando\\ColegioEnfermerasMVC\\Data\\DbCollegeContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Proyectos\\Integracion\\PRI-24-COL-ENFERMERIA\\Fernando\\PRI-24-COL-ENFERMERIA-Fernando\\ColegioEnfermerasMVC\\Data\\DbCollegeContext.cs",
+              "ViewState": "AQIAAFMBAAAAAAAAAIBZwGEBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:54:41.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Userrs\\Edit.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Userrs\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:51.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nurses\\Delete.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Nurses\\Delete.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:15.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Edit.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:18.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Province.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Province.cs",
+              "RelativeDocumentMoniker": "Models\\Province.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\Province.cs",
+              "RelativeToolTip": "Models\\Province.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:39:35.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "Models\\ResetPasswordModel.cs",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Models\\ResetPasswordModel.cs",
+              "RelativeToolTip": "Models\\ResetPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:44:40.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Details.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "Views\\Students\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBZwBgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:11.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nurses\\Details.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Nurses\\Details.cshtml",
+              "RelativeToolTip": "Views\\Nurses\\Details.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAIBZwAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:47:21.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:46:14.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C#Proyectos\\ProyectoIntegrado_V1\\Program.cs",
+              "ToolTip": "F:\\C#Proyectos\\ProyectoIntegrado_V1\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T23:49:46.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C#Proyectos\\ProyectoIntegrado_V1\\appsettings.json",
+              "ToolTip": "F:\\C#Proyectos\\ProyectoIntegrado_V1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T23:49:21.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Userrs\\Details.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Details.cshtml",
+              "RelativeToolTip": "Views\\Userrs\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:45.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Userrs\\Delete.cshtml",
+              "ToolTip": "D:\\Colegio Enfermeras\\ProyectoFnalIntegrado\\Views\\Userrs\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Userrs\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:48:39.082Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoFnalIntegrado.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProyectoFnalIntegrado.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Assigment.css",
+      "PackagePath": "staticwebassets\\css\\Assigment.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\First.css",
+      "PackagePath": "staticwebassets\\css\\First.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Form.css",
+      "PackagePath": "staticwebassets\\css\\Form.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Medicine.css",
+      "PackagePath": "staticwebassets\\css\\Medicine.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\MedicineList.css",
+      "PackagePath": "staticwebassets\\css\\MedicineList.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Stock.css",
+      "PackagePath": "staticwebassets\\css\\Stock.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Supplier.css",
+      "PackagePath": "staticwebassets\\css\\Supplier.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\Table.css",
+      "PackagePath": "staticwebassets\\css\\Table.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\1.jfif",
+      "PackagePath": "staticwebassets\\image\\1.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\2.jfif",
+      "PackagePath": "staticwebassets\\image\\2.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\3.jfif",
+      "PackagePath": "staticwebassets\\image\\3.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\4.jfif",
+      "PackagePath": "staticwebassets\\image\\4.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\5.jfif",
+      "PackagePath": "staticwebassets\\image\\5.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\6.jfif",
+      "PackagePath": "staticwebassets\\image\\6.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\7.jfif",
+      "PackagePath": "staticwebassets\\image\\7.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\8.jfif",
+      "PackagePath": "staticwebassets\\image\\8.jfif"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\9.jpg",
+      "PackagePath": "staticwebassets\\image\\9.jpg"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\UnivalleVideo.mp4",
+      "PackagePath": "staticwebassets\\image\\UnivalleVideo.mp4"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\basurero.png",
+      "PackagePath": "staticwebassets\\image\\basurero.png"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\fondologo.jpg",
+      "PackagePath": "staticwebassets\\image\\fondologo.jpg"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\lapiz.png",
+      "PackagePath": "staticwebassets\\image\\lapiz.png"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\login.png",
+      "PackagePath": "staticwebassets\\image\\login.png"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\image\\logo\\logUni.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logUni.png"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\Assigment.js",
+      "PackagePath": "staticwebassets\\js\\Assigment.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\First.js",
+      "PackagePath": "staticwebassets\\js\\First.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\Kardex.js",
+      "PackagePath": "staticwebassets\\js\\Kardex.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\Medicine.js",
+      "PackagePath": "staticwebassets\\js\\Medicine.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\MedicineList.js",
+      "PackagePath": "staticwebassets\\js\\MedicineList.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\Stock.js",
+      "PackagePath": "staticwebassets\\js\\Stock.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\Supplier.js",
+      "PackagePath": "staticwebassets\\js\\Supplier.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\C#Proyectos\\ProyectoFnalIntegrado\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProyectoFnalIntegrado.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProyectoFnalIntegrado.props",
+      "PackagePath": "build\\ProyectoFnalIntegrado.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoFnalIntegrado.props",
+      "PackagePath": "buildMultiTargeting\\ProyectoFnalIntegrado.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProyectoFnalIntegrado.props",
+      "PackagePath": "buildTransitive\\ProyectoFnalIntegrado.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

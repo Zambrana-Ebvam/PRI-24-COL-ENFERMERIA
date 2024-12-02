@@ -1,0 +1,21 @@
+﻿.search-container {
+    position: relative;
+}
+
+    .search-container .form-control {
+        padding-right: 30px;
+    }
+
+    .search-container .search-icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+.info-section {
+    background-color: #f8f9fa;
+    border-left: 5px solid #772b47;
+    padding: 20px;
+    margin-bottom: 20px;
+}

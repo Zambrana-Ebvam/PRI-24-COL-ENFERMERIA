@@ -1,0 +1,118 @@
+﻿@model ProyectoFnalIntegrado.Models.Student
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link href="~/css/Form.css" rel="stylesheet" />
+}
+
+<div class="wave-container">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+
+<div class="card shadow mt-4">
+    <div class="card-header bg-primary text-white">
+        <h4>Formulario de Creación de Estudiante</h4>
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Row for two-column form layout -->
+            <div class="row">
+                <!-- Columna 1 -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Names" class="control-label"></label>
+                        <input asp-for="Names" class="form-control" />
+                        <span asp-validation-for="Names" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="control-label"></label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MiddleName" class="control-label"></label>
+                        <input asp-for="MiddleName" class="form-control" />
+                        <span asp-validation-for="MiddleName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <select asp-for="Gender" class="form-control">
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                        </select>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Code" class="control-label"></label>
+                        <input asp-for="Code" class="form-control" />
+                        <span asp-validation-for="Code" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Columna 2 -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Birthdate" class="control-label"></label>
+                        <input asp-for="Birthdate" class="form-control" type="date" />
+                        <span asp-validation-for="Birthdate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Tutor" class="control-label"></label>
+                        <input asp-for="Tutor" class="form-control" />
+                        <span asp-validation-for="Tutor" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TutorCellphone" class="control-label"></label>
+                        <input asp-for="TutorCellphone" class="form-control" />
+                        <span asp-validation-for="TutorCellphone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="BloodType" class="control-label"></label>
+                        <input asp-for="BloodType" class="form-control" />
+                        <span asp-validation-for="BloodType" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Allergy" class="control-label"></label>
+                        <input asp-for="Allergy" class="form-control" />
+                        <span asp-validation-for="Allergy" class="text-danger"></span>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <label asp-for="IdEstablishment" class="control-label"></label>
+                <select asp-for="IdEstablishment" class="form-control" asp-items="ViewBag.IdEstablishment"></select>
+
+                <span asp-validation-for="IdEstablishment" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="mb-3"></div>
+            <!-- Submit button -->
+            <div class="form-group text-center">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+    <div class="card-footer text-center">
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
