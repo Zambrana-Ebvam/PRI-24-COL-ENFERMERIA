@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "Medicina";
+    Layout = "_Layout";
+}
+@section styles {
+    <link rel="stylesheet" href="~/css/Medicine.css" />
+    <link rel="stylesheet" href="~/css/First.css" />
+    <link rel="stylesheet" href="~/css/Table.css" />
+}
+
+<div class="container mt-4">
+
+
+    
+
+    <div class="container mt-5 mb-5" id="modalFiltro">
+        <div class="row date-filter-row align-items-end">
+            <div class="col-md-3 mb-3 mb-md-0">
+                <label for="start-date" class="form-label">Fecha Inicio</label>
+                <input type="date" class="form-control" id="startDateFilter">
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <label for="end-date" class="form-label">Fecha Fin</label>
+                <input type="date" class="form-control" id="endDateFilter">
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <button class="btn btn-primary w-100" id="btnFiltrar">Filtrar</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-secondary w-100" id="btnLimpiarF">Limpiar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <button type="button" class="btn btn-primary mb-3" id="openMedicineModal">Agregar Medicamento</button>
+
+
+    <!-- Tabla de medicamentos -->
+  
+    <div class="provider-table mb-5">
+
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Fecha Creación</th>
+                        <th>Fecha Expiracion</th>
+                        <th>Categoria</th>
+                        <th>Proovedor</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="MedicineList">
+                    <!-- Los proveedores se agregarán aquí dinámicamente -->
+                </tbody>
+            </table>
+            <hr />
+            <div id="pagination" class="text-center mt-3">
+                <!-- Aquí se agregarán los botones de paginación -->
+            </div>
+            <div id="moreAssignmentsMsg" style="display:none;">
+                <p>Hay más asignaciones disponibles. Por favor, revisa el sistema para ver todos los resultados.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para crear medicamento -->
+<div class="modal fade" id="medicineModal" tabindex="-1" aria-labelledby="medicineModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="medicineModalLabel">Agregar Medicamento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="newMedicineForm" novalidate>
+                    <div class="mb-3">
+                        <label for="medicineName" class="form-label"><i class="fas fa-capsules me-2"></i>Nombre</label>
+                        <input type="text" class="form-control" id="medicineName" required>
+                        <div class="invalid-feedback" id="nameErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="medicineDescription" class="form-label"><i class="fas fa-file-medical-alt me-2"></i>Descripción</label>
+                        <textarea class="form-control" id="medicineDescription" required></textarea>
+                        <div class="invalid-feedback" id="descriptionErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="medicineCategory" class="form-label"><i class="fas fa-tags me-2"></i>Categoría</label>
+                        <select class="form-select" id="medicineCategory" required>
+                            <option value="">Seleccione una categoría</option>
+                         
+                        </select>
+                        <div class="invalid-feedback" id="categoryErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="medicineProvider" class="form-label"><i class="fas fa-truck me-2"></i>Proveedor</label>
+                        <select class="form-select" id="medicineProvider" required>
+                            <option value="">Seleccione un proveedor</option>
+                            
+                        </select>
+                        <div class="invalid-feedback" id="providerErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="providerExpiryDate" class="form-label">Fecha de Expiración</label>
+                        <input type="date" class="form-control" id="providerExpiryDate" required>
+                        <div class="invalid-feedback" id="expiryDateErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="submit" class="btn btn-primary me-3" id="saveMedicineBtn" disabled>Guardar Medicamento</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="cancelMedicineBtn">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para actualizar medicamento -->
+<div class="modal fade" id="updateMedicineModal" tabindex="-1" aria-labelledby="updateMedicineModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateMedicineModalLabel">Actualizar Medicamento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="updateMedicineForm" novalidate>
+                    <input type="hidden" id="updateMedicineId">
+                    <div class="mb-3">
+                        <label for="updateMedicineName" class="form-label"><i class="fas fa-capsules me-2"></i>Nombre</label>
+                        <input type="text" class="form-control" id="updateMedicineName" required>
+                        <div class="invalid-feedback" id="updateNameErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateMedicineDescription" class="form-label"><i class="fas fa-file-medical-alt me-2"></i>Descripción</label>
+                        <textarea class="form-control" id="updateMedicineDescription" required></textarea>
+                        <div class="invalid-feedback" id="updateDescriptionErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateMedicineCategory" class="form-label"><i class="fas fa-tags me-2"></i>Categoría</label>
+                        <select class="form-select" id="updateMedicineCategory" required>
+                            <option value="">Seleccione una categoría</option>
+                           
+                        </select>
+                        <div class="invalid-feedback" id="updateCategoryErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateMedicineProvider" class="form-label"><i class="fas fa-truck me-2"></i>Proveedor</label>
+                        <select class="form-select" id="updateMedicineProvider" required>
+                            <option value="">Seleccione un proveedor</option>
+                        
+                        </select>
+                        <div class="invalid-feedback" id="updateProviderErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="providerExpiryDateUp" class="form-label">Fecha de Expiración</label>
+                        <input type="date" class="form-control" id="providerExpiryDateUp" required>
+                        <div class="invalid-feedback" id="expiryDateErrorMsgUp"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="updateMedicineBtn" disabled>Actualizar Medicamento</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mb-5">
+    <hr />
+</div>
+
+@section scripts {
+    <script src="~/js/Medicine.js"></script>
+}

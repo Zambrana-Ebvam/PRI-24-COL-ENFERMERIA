@@ -1,0 +1,301 @@
+﻿@{
+    ViewData["Title"] = "Gestión de Kardex";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link href="~/css/Form.css" rel="stylesheet" />
+}
+
+<div class="wave-container">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+
+@{
+    ViewData["Title"] = "Gestión de Kardex";
+}
+
+<div class="container">
+    <h2 class="page-title text-center mb-4">Gestión de Kardex</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <form id="formKardex" class="p-4 bg-light rounded shadow-sm" style="max-height: 80vh; overflow-y: auto;">
+                <input type="hidden" id="Id" name="Id" value="" />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Height">Altura (cm):</label>
+                            <input type="text" id="Height" name="Height" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Weight">Peso (kg):</label>
+                            <input type="text" id="Weight" name="Weight" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="OxygenLevel">Nivel de Oxígeno (%):</label>
+                            <input type="text" id="OxygenLevel" name="OxygenLevel" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Description">Descripción:</label>
+                            <textarea id="Description" name="Description" class="form-control"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Temperature">Temperatura (°C):</label>
+                            <input type="text" id="Temperature" name="Temperature" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="RespiratoryRate">Frecuencia Respiratoria:</label>
+                            <input type="text" id="RespiratoryRate" name="RespiratoryRate" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="BloodPressure">Presión Arterial:</label>
+                            <input type="text" id="BloodPressure" name="BloodPressure" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Derivation">Derivación:</label>
+                            <input type="text" id="Derivation" name="Derivation" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="StudentId">Estudiante:</label>
+                            <select id="StudentId" name="IdStudent" class="form-control" asp-items="ViewBag.StudentId"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="NurseId">Enfermera:</label>
+                            <select id="NurseId" name="IdNurse" class="form-control" asp-items="ViewBag.NurseId"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" id="btnSave" class="btn btn-success">Guardar</button>
+                    <button type="button" id="btnClear" class="btn btn-secondary">Limpiar</button>
+                </div>
+
+                <button type="button" class="btn btn-primary mt-4 w-100" id="btnVerKardexes">Ver Kardex</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Ver Kardex -->
+<div class="modal fade" id="viewKardexModal" tabindex="-1" role="dialog" aria-labelledby="viewKardexModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="viewKardexModalLabel">Kardex Registrados</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Altura</th>
+                            <th>Peso</th>
+                            <th>Oxígeno</th>
+                            <th>Descripción</th>
+                            <th>Temperatura</th>
+                            <th>Frecuencia Respiratoria</th>
+                            <th>Presión arterial</th>
+                            <th>Derivacion</th>
+                            <th>Estudiante</th>
+                            <th>Enfermero</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="kardexTableBody"></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btnVerKardexes').on('click', function () {
+                loadKardexes(function () {
+                    $('#viewKardexModal').modal('show');
+                });
+            });
+
+            $('#formKardex').submit(function (e) {
+                e.preventDefault();
+                saveKardex();
+            });
+
+            $('#btnClear').click(function () {
+                clearForm();
+            });
+
+            $('#viewKardexModal .close, #viewKardexModal .btn-secondary').on('click', function () {
+                $('#viewKardexModal').modal('hide');
+            });
+        });
+
+        function loadKardexes(callback) {
+            $.get('/Kardex/GetAllKardexes', function (data) {
+                const tbody = $('#kardexTableBody');
+                tbody.empty();
+                data.forEach(function (kardex) {
+                    tbody.append(`
+                                        <tr>
+                                            <td>${kardex.height}</td>
+                                            <td>${kardex.weight}</td>
+                                            <td>${kardex.oxygenLevel}</td>
+                                            <td>${kardex.description}</td>
+                                            <td>${kardex.temperature}</td>
+                                            <td>${kardex.respiratoryRate}</td>
+                                            <td>${kardex.bloodPressure}</td>
+                                            <td>${kardex.derivation}</td>
+                                            <td>${kardex.studentName}</td>
+                                            <td>${kardex.nurseName}</td>
+                                            <td>
+                                                <button class="btn btn-primary btn-sm" onclick="editKardex(${kardex.id})">Editar</button>
+                                                <button class="btn btn-danger btn-sm" onclick="deleteKardex(${kardex.id})">Eliminar</button>
+                                            </td>
+                                        </tr>
+                                    `);
+                });
+                if (callback) callback();
+            }).fail(function () {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Error al cargar los Kardex.',
+                    timer: 4000,
+                    showConfirmButton: false
+                });
+            });
+        }
+
+        function saveKardex() {
+            const id = $('#Id').val();
+            const url = id ? `/Kardex/Edit/${id}` : '/Kardex/Create';
+            const formData = {
+                Height: $('#Height').val(),
+                Weight: $('#Weight').val(),
+                OxygenLevel: $('#OxygenLevel').val(),
+                Description: $('#Description').val(),
+                Temperature: $('#Temperature').val(),
+                RespiratoryRate: $('#RespiratoryRate').val(),
+                BloodPressure: $('#BloodPressure').val(),
+                Derivation: $('#Derivation').val(),
+                IdStudent: $('#StudentId').val(),
+                IdNurse: $('#NurseId').val()
+            };
+            if (id) formData.Id = id;
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    Swal.fire({
+                        icon: response.success ? 'success' : 'error',
+                        title: response.success ? 'Éxito' : 'Error',
+                        text: response.message,
+                        timer: 4000,
+                        showConfirmButton: false
+                    });
+                    if (response.success) {
+                        loadKardexes();
+                        clearForm();
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Error al guardar el Kardex.',
+                        timer: 4000,
+                        showConfirmButton: false
+                    });
+                }
+            });
+        }
+
+        function clearForm() {
+            $('#formKardex').trigger('reset');
+            $('#Id').val('');
+            $('#btnSave').text('Guardar');
+        }
+
+        function editKardex(id) {
+            $.get(`/Kardex/Edit/${id}`, function (kardex) {
+                $('#Id').val(kardex.id);
+                $('#Height').val(kardex.height);
+                $('#Weight').val(kardex.weight);
+                $('#OxygenLevel').val(kardex.oxygenLevel);
+                $('#Description').val(kardex.description);
+                $('#Temperature').val(kardex.temperature);
+                $('#RespiratoryRate').val(kardex.respiratoryRate);
+                $('#BloodPressure').val(kardex.bloodPressure);
+                $('#Derivation').val(kardex.derivation);
+                $('#StudentId').val(kardex.idStudent);
+                $('#NurseId').val(kardex.idNurse);
+                $('#btnSave').text('Actualizar');
+            });
+        }
+
+        function deleteKardex(id) {
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: "No podrás revertir esta acción.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí, eliminar',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: `/Kardex/DeleteLogical/${id}`,
+                        type: 'POST',
+                        success: function (response) {
+                            Swal.fire({
+                                icon: response.success ? 'success' : 'error',
+                                title: response.success ? 'Éxito' : 'Error',
+                                text: response.message,
+                                timer: 4000,
+                                showConfirmButton: false
+                            });
+                            if (response.success) {
+                                loadKardexes();
+                            }
+                        },
+                        error: function () {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: 'Error al eliminar el Kardex.',
+                                timer: 4000,
+                                showConfirmButton: false
+                            });
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}

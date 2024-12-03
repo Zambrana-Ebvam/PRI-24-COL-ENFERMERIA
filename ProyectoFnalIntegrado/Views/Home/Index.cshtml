@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+       
+
+<div class="hero">
+    <div class="hero-video">
+        <video autoplay loop muted playsinline class="video-background">
+            <source src="~/image/UnivalleVideo.mp4" type="video/mp4">
+         
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    <div class="container">
+        <h2>Formando el Futuro de la Enfermería</h2>
+        <p>Excelencia, Compromiso y Cuidado Integral en UNIVALLE Cochabamba</p>
+        <a href="#contacto" class="btn">Contáctanos</a>
+    </div>
+</div>
+
+<div class="container main-content">
+    <main role="main" class="pb-3">
+        <section id="inicio">
+            <h2>Bienvenidos a los Servicios de Enfermería</h2>
+            <p>En UNIVALLE Cochabamba, nos dedicamos a formar profesionales de enfermería de clase mundial. Nuestra misión es proporcionar una educación integral que combine conocimientos teóricos sólidos con experiencia práctica invaluable.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Profesionales Expertos</h3>
+                    <p>Aprende de los mejores en el campo de la enfermería.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Instalaciones Modernas</h3>
+                    <p>Accede a laboratorios y equipos de última generación.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Enfoque Comunitario</h3>
+                    <p>Participa en programas de salud comunitaria.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="~/image/1.jfif" alt="Formación profesional">
+                    <h3>Formación Profesional en Enfermería</h3>
+                    <p>Programa de grado completo con énfasis en práctica clínica y teoría avanzada.</p>
+                </div>
+                <div class="service-card">
+                    <img src="~/image/2.jfif" alt="Prácticas clínicas">
+                    <h3>Prácticas Clínicas Supervisadas</h3>
+                    <p>Experiencia práctica en hospitales y clínicas asociadas bajo supervisión experta.</p>
+                </div>
+                <div class="service-card">
+                    <img src="~/image/3.jfif" alt="Investigación en salud">
+                    <h3>Investigación en Salud</h3>
+                    <p>Participa en proyectos de investigación innovadores en el campo de la salud.</p>
+                </div>
+                <div class="service-card">
+                    <img src="~/image/4.jfif" alt="Atención comunitaria">
+                    <h3>Atención Comunitaria</h3>
+                    <p>Programas de extensión para brindar servicios de salud a comunidades locales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Nosotros</h2>
+            <div class="about-content">
+                <img src="~/image/9.jpg" alt="Campus UNIVALLE Cochabamba">
+                <div>
+                    <p>La carrera de Enfermería en UNIVALLE Cochabamba está comprometida con la formación de profesionales de la salud altamente calificados y dedicados al cuidado integral de la comunidad. Con más de 20 años de experiencia, nuestro programa combina:</p>
+                    <ul>
+                        <li>Currículo actualizado y alineado con estándares internacionales</li>
+                        <li>Docentes con amplia experiencia clínica y académica</li>
+                        <li>Convenios con instituciones de salud líderes para prácticas profesionales</li>
+                        <li>Enfoque en la atención centrada en el paciente y la ética profesional</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="~/image/5.jfif" alt="Estudiantes en práctica">
+                <img src="~/image/6.jfif" alt="Laboratorio de simulación">
+                <img src="~/image/7.jfif" alt="Graduación">
+                <img src="~/image/8.jfif" alt="Atención comunitaria">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                    <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. América #E-0370, Cochabamba, Bolivia</p>
+                    <p><i class="fas fa-phone"></i> +591 4 4365888</p>
+                    <p><i class="fas fa-envelope"></i> info.enfermeria@univalle.edu</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>

@@ -1,0 +1,185 @@
+﻿@model IEnumerable<ProyectoFnalIntegrado.Models.Userr>
+
+@{
+    ViewData["Title"] = "Lista de Usuarios";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <link href="~/css/Table.css" rel="stylesheet" />
+}
+
+<!-- Card que contiene la tabla y el botón -->
+<div class="card shadow mt-4">
+    <div class="card-header" style="background-color: #7C2949; color: white;">
+        <h4>Lista de Usuarios</h4>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                    <th>@Html.DisplayNameFor(model => model.Rol)</th>
+                    <th class="table-actions">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Rol)</td>
+                        <td class="table-actions">
+                            <a href="#" class="btn-action edit-btn" data-id="@item.Id" title="Editar" data-bs-toggle="modal" data-bs-target="#editUserModal" style="background-color: #7C2949; color: #FFF; border-radius: 50%; padding: 8px;">
+                                <img src="~/image/lapiz.png" alt="Editar" class="action-icon" />
+                            </a>
+                            <a href="#" class="btn-action deactivate-button" data-id="@item.Id" title="Desactivar">
+                                <img src="~/image/basurero.png" alt="Desactivar" class="action-icon" />
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal de Edición -->
+<div class="modal fade" id="editUserModal" tabindex="-1" aria-labelledby="editUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #7C2949; color: white;">
+                <h5 class="modal-title" id="editUserModalLabel">Actualizar Rol</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editUserForm">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="userId" name="Id" />
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Nombre de Usuario</label>
+                        <input type="text" id="userName" name="UserName" class="form-control" disabled />
+                    </div>
+                    <div class="mb-3">
+                        <label for="role" class="form-label">Rol</label>
+                        <select id="role" name="Rol" class="form-select">
+                            <option value="Admin">Admin</option>
+                            <option value="Enfermero">Enfermero</option>
+                            <option value="Director">Director</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="updateRoleBtn">Actualizar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const modalElement = document.getElementById("editUserModal");
+            const modal = new bootstrap.Modal(modalElement);
+
+            document.querySelectorAll(".edit-btn").forEach((button) => {
+                button.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    const row = button.closest("tr");
+                    const userId = button.getAttribute("data-id");
+                    const userName = row.querySelector("td:nth-child(1)").textContent.trim();
+                    const role = row.querySelector("td:nth-child(2)").textContent.trim();
+
+                    document.getElementById("userId").value = userId;
+                    document.getElementById("userName").value = userName;
+                    document.getElementById("role").value = role;
+
+                    modal.show();
+                });
+            });
+
+            document.getElementById("updateRoleBtn").addEventListener("click", () => {
+                const formData = new FormData(document.getElementById("editUserForm"));
+
+                fetch("@Url.Action("EditRol", "Userrs")", {
+                    method: "POST",
+                    body: formData,
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        if (data.success) {
+                            Swal.fire("Éxito", "El rol fue actualizado correctamente.", "success").then(() => {
+                                modal.hide();
+                                location.reload();
+                            });
+                        } else {
+                            Swal.fire("Error", "No se pudo actualizar el rol.", "error");
+                        }
+                    })
+                    .catch(() => {
+                        Swal.fire("Error", "Hubo un problema con la operación.", "error");
+                    });
+            });
+        });
+
+
+        function showAlert(message, isSuccess) {
+            Swal.fire({
+                title: isSuccess ? 'Éxito' : 'Error',
+                text: message,
+                icon: isSuccess ? 'success' : 'error',
+                confirmButtonText: 'Aceptar',
+                timer: 4000,
+                timerProgressBar: true,
+                didOpen: () => {
+
+                    Swal.showLoading();
+                }
+            });
+        }
+
+        $(document).on('click', '.deactivate-button', function (e) {
+            e.preventDefault();
+
+            var studentId = $(this).data('id');
+
+
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: '¡Esta acción no se puede deshacer!',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Sí, desactivar',
+                cancelButtonText: 'No, cancelar',
+                timer: 4000,
+                timerProgressBar: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                    $.ajax({
+                        url: '/Userrs/Deactivate',
+                        type: 'POST',
+                        data: { id: studentId },
+                        success: function (response) {
+                            if (response.success) {
+                                showAlert(response.message, true);
+                                location.reload();
+                            }
+                        },
+                        error: function (xhr) {
+                            showAlert(xhr.responseText || "Error al desactivar el estudiante.", false);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

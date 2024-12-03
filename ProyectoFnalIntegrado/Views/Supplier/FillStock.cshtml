@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Stock";
+    Layout = "_Layout";
+}
+
+@section styles {
+    <link rel="stylesheet" href="~/css/Stock.css" />
+    <link href="~/css/Form.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/Table.css" />
+}
+
+<div class="container mt-4">
+   
+
+    <!-- Selección de Proveedores -->
+    <div class="mb-4">
+        <label for="providerSelect" class="form-label">Proveedores</label>
+        <select id="providerSelect" class="form-select" aria-label="Seleccione un proveedor">
+            <option value="">Seleccione un proveedor</option>
+        </select>
+    </div>
+
+    <!-- Modal para Medicamentos -->
+    <div class="modal fade" id="medicineModal" tabindex="-1" aria-labelledby="medicineModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="medicineModalLabel">Medicamentos del Proveedor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Stock</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="providerMedicinesList">
+                            <!-- Medicamentos cargados por AJAX -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla de Medicamentos Asignados -->
+    <h4 class="text-center mb-4">Medicamentos Asignados</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre del Medicamento</th>
+                <th>Stock Actual</th>
+                <th>Nuevo Stock</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="addedMedicinesList">
+            <!-- Medicamentos asignados -->
+        </tbody>
+    </table>
+    <div id="acceptButtonContainer" class="mt-4"></div>
+</div>
+
+<!-- Modal para Agregar Stock -->
+<div class="modal fade" id="updateStockModal" tabindex="-1" aria-labelledby="updateStockModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateStockModalLabel">Actualizar Stock</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="updateStockForm">
+                    <input type="hidden" id="updateMedicineId">
+                    <div class="mb-3">
+                        <label for="updateMedicineName" class="form-label">Medicamento</label>
+                        <input type="text" class="form-control" id="updateMedicineName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="currentStock" class="form-label">Stock Actual</label>
+                        <input type="number" class="form-control" id="currentStock" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateStock" class="form-label">Nuevo Stock</label>
+                        <input type="number" class="form-control" id="updateStock" required min="0">
+                        <div class="invalid-feedback" id="newStockErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btn_Close" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="saveUpdatedStock" disabled>Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Actualizar Stock (Formulario Adicional) -->
+<div class="modal fade" id="quickUpdateStockModal" tabindex="-1" aria-labelledby="quickUpdateStockModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="quickUpdateStockModalLabel">Actualizar Stock Rápido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="quickUpdateStockForm">
+                    <input type="hidden" id="quickUpdateMedicineId">
+                    <div class="mb-3">
+                        <label for="quickUpdateStock" class="form-label">Nuevo Stock</label>
+                        <input type="number" class="form-control" id="quickUpdateStock" required min="0">
+                        <div class="invalid-feedback" id="quickUpdateStockErrorMsg"></div>
+                        <div class="valid-feedback"><i class="bi bi-check-circle-fill text-success"></i> ¡Correcto!</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btn_CloseQuickUpdate" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="saveQuickUpdatedStock" disabled>Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <div class="container mt-4">
+   
+    <h4 class="text-center mb-4">Reporte de Enfermera</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre de la Enfermera</th>
+                <th>Colegio</th>
+                <th>Nombre del Medicamento</th>
+                <th>Proveedor</th>
+                <th>Stock</th>
+                <th>Fecha de Expiración</th>
+            </tr>
+        </thead>
+        <tbody id="nurseReportTableBody">
+         
+        </tbody>
+    </table>
+</div> *@
+<div class="mb-5">
+    <hr />
+</div>
+
+@section scripts {
+    <script src="~/js/Stock.js"></script>
+}
